@@ -3,6 +3,6 @@
 
 int main() {
     print_hello ();
-    printf ("The factorial of 5 is %d\n", factorial (5));
+    printf ("The 10th Fibonacci number is %d.\n", fibonacci (10));
     return 0;
 }

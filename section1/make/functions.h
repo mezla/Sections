@@ -1,2 +1,2 @@
 void print_hello ();
-int factorial (int n);
+int fibonacci (int n);
