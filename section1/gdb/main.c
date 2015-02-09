@@ -25,7 +25,7 @@ int main () {
     print_ptr_val (ptr);
     free(ptr);
     ptr = NULL;
-    //print_ptr_val (ptr);
+    print_ptr_val (ptr);
     //fork_print_process ();
     return 0;
 }

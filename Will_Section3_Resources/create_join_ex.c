@@ -16,7 +16,7 @@ void *ChildThread(void *argument)
 
 /////////////////////////////////////////////////////
 int main(void)
-	{  pthread_t hThread;  int ret;
+{   pthread_t hThread;  int ret;
 	
 	ret=pthread_create(&hThread,NULL,ChildThread,NULL);  // Create Thread
 
@@ -27,4 +27,4 @@ int main(void)
 	printf("Parent is continuing....\n");
 
 	return 0;
-	}
+}

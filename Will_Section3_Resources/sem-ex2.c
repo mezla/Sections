@@ -24,7 +24,7 @@ int main()
     int i[4];
     pthread_t thread_a;
     pthread_t thread_b;
-        pthread_t thread_c;
+    pthread_t thread_c;
     pthread_t thread_d;
     
     i[0] = 0; /* argument to threads */

@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 {
    
 
-    if ((semaphore = sem_open("/semaphore", O_CREAT, 0644, 1)) == SEM_FAILED ) {
+    if ((semaphore = sem_open("/semaphore", O_CREAT, 0644, 2)) == SEM_FAILED ) {
         perror("sem_open");
         exit(EXIT_FAILURE);
     }
